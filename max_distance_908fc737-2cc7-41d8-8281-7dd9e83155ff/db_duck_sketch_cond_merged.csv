@@ -1,0 +1,8 @@
+dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+908fc737-2cc7-41d8-8281-7dd9e83155ff,-5507561878,11158845299,4176,3,1543571,window
+908fc737-2cc7-41d8-8281-7dd9e83155ff,-5507561878,11158845299,4176,/phylanx$0/__add$0/1$45$8,1982290,window_cond
+908fc737-2cc7-41d8-8281-7dd9e83155ff,-5507561878,11158845299,4176,6,2862541,window
+908fc737-2cc7-41d8-8281-7dd9e83155ff,-5507561878,11158845299,4176,/phylanx$0/__add$0/1$45$8,3811284,window_cond
+Initial serve memory: 25712.6 MB
+Post serve memory: 26045.1 MB
+Post data serve memory:  MB
