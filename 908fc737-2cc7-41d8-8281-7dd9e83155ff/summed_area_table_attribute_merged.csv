@@ -1,0 +1,6 @@
+dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+908fc737-2cc7-41d8-8281-7dd9e83155ff,-5507561878,11158845299,4176,24764,283367,window
+908fc737-2cc7-41d8-8281-7dd9e83155ff,-18033105,179787753,4177,1459,190068,window
+Initial serve memory: 8418.18 MB
+Post serve memory: 8750.98 MB
+Post data serve memory:  MB

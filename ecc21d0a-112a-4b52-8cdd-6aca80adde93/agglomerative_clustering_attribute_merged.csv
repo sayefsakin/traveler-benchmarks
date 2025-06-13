@@ -1,0 +1,17 @@
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,hrd,ds query time (micros),dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+3642,AGC,ds_window,-299856534,709352817,1,359,ecc21d0a-112a-4b52-8cdd-6aca80adde93,-299856534,709352817,4176,8,38574,window
+3642,AGC,ds_window,271130358,423859371,1,133,ecc21d0a-112a-4b52-8cdd-6aca80adde93,271130358,423859371,4176,8,37340,window
+3642,AGC,ds_window,318546227,329027633,1,143,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,5,38140,window
+3642,AGC,ds_attribute,323869757,6,1,5,ecc21d0a-112a-4b52-8cdd-6aca80adde93,323869757,6,124,560,7516,attribute
+3642,AGC,ds_window,318546227,329027633,1,142,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,3,37863,window
+3642,AGC,ds_attribute,325026828,7,1,8,ecc21d0a-112a-4b52-8cdd-6aca80adde93,325026828,7,72,697,6306,attribute
+3642,AGC,ds_window,318546227,329027633,1,145,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,5,37782,window
+3642,AGC,ds_attribute,323824579,4,1,5,ecc21d0a-112a-4b52-8cdd-6aca80adde93,323824579,4,558,571,3910,attribute
+3642,AGC,ds_window,318546227,329027633,1,141,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,7,36757,window
+3642,AGC,ds_attribute,324974120,9,1,6,ecc21d0a-112a-4b52-8cdd-6aca80adde93,324974120,9,308,604,1119,attribute
+3642,AGC,ds_window,318546227,329027633,1,139,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,3,36579,window
+3642,AGC,ds_attribute,325049417,9,1,5,ecc21d0a-112a-4b52-8cdd-6aca80adde93,325049417,9,308,587,1376,attribute
+3642,AGC,ds_window,318546227,329027633,1,142,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,4,37057,window
+Initial serve memory: 2771.07 MB
+Post serve memory: 3106.32 MB
+Post data serve memory: 154.375 MB

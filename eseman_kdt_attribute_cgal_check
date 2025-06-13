@@ -1,0 +1,8 @@
+ESEMAN dataset loaded from disk
+EseMAN KDT load from disk time = 305976375[microseconds]
+Server is now listening
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,hrd,ds query time (micros)
+305976375,ESEMAN,ds_window,-5507561878,11158845299,1,3207
+305976375,ESEMAN,ds_window,-18033105,179787753,1,25722
+305976375,ESEMAN,ds_window,113846465,113849468,1,26020
+305976375,ESEMAN,ds_window,113846466,113849466,1,25618

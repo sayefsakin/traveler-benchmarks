@@ -1,0 +1,17 @@
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,hrd,ds query time (micros),dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+6935,ESEMAN,ds_window,-299856534,709352817,1,472,ecc21d0a-112a-4b52-8cdd-6aca80adde93,-299856534,709352817,4176,3,40395,window
+6935,ESEMAN,ds_window,271130358,423859371,1,493,ecc21d0a-112a-4b52-8cdd-6aca80adde93,271130358,423859371,4176,4,37579,window
+6935,ESEMAN,ds_window,318546227,329027633,1,356,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,4,37801,window
+6935,ESEMAN,ds_attribute,323869757,6,1,9,ecc21d0a-112a-4b52-8cdd-6aca80adde93,323869757,6,124,566,7701,attribute
+6935,ESEMAN,ds_window,318546227,329027633,1,338,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,4,37419,window
+6935,ESEMAN,ds_attribute,325026828,7,1,9,ecc21d0a-112a-4b52-8cdd-6aca80adde93,325026828,7,72,584,4828,attribute
+6935,ESEMAN,ds_window,318546227,329027633,1,330,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,5,36637,window
+6935,ESEMAN,ds_attribute,323824579,4,1,9,ecc21d0a-112a-4b52-8cdd-6aca80adde93,323824579,4,558,564,2337,attribute
+6935,ESEMAN,ds_window,318546227,329027633,1,377,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,7,36684,window
+6935,ESEMAN,ds_attribute,324974120,9,1,10,ecc21d0a-112a-4b52-8cdd-6aca80adde93,324974120,9,308,570,1923,attribute
+6935,ESEMAN,ds_window,318546227,329027633,1,308,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,4,36420,window
+6935,ESEMAN,ds_attribute,325049417,9,1,10,ecc21d0a-112a-4b52-8cdd-6aca80adde93,325049417,9,308,564,1164,attribute
+6935,ESEMAN,ds_window,318546227,329027633,1,497,ecc21d0a-112a-4b52-8cdd-6aca80adde93,318546227,329027633,4177,5,37343,window
+Initial serve memory: 2773.42 MB
+Post serve memory: 3108.46 MB
+Post data serve memory: 1995 MB

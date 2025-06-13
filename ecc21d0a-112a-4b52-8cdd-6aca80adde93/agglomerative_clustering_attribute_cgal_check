@@ -1,0 +1,14 @@
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,hrd,ds query time (micros)
+3642,AGC,ds_window,-299856534,709352817,1,359
+3642,AGC,ds_window,271130358,423859371,1,133
+3642,AGC,ds_window,318546227,329027633,1,143
+3642,AGC,ds_attribute,323869757,6,1,5
+3642,AGC,ds_window,318546227,329027633,1,142
+3642,AGC,ds_attribute,325026828,7,1,8
+3642,AGC,ds_window,318546227,329027633,1,145
+3642,AGC,ds_attribute,323824579,4,1,5
+3642,AGC,ds_window,318546227,329027633,1,141
+3642,AGC,ds_attribute,324974120,9,1,6
+3642,AGC,ds_window,318546227,329027633,1,139
+3642,AGC,ds_attribute,325049417,9,1,5
+3642,AGC,ds_window,318546227,329027633,1,142
