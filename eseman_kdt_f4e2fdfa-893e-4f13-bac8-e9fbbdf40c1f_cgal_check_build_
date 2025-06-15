@@ -1,0 +1,10 @@
+Generated Url String: http://lp083:8000/datasets/f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f/intervals
+........................................ processed 100000 intervals
+........................................ processed 200000 intervals
+........................................ processed 300000 intervals
+........................................ processed 400000 intervals
+........................................ processed 500000 intervals
+....................
+EseMAN KDT build time = 652807935[microseconds]
+Tree build done
+Total interval count: 551857, Primitive count: 97
