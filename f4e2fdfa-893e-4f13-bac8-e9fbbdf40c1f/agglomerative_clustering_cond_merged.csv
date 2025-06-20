@@ -1,0 +1,8 @@
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,hrd,ds query time (micros),dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+27947967,AGC,ds_window,-88540582504,177707185940,1,22419,f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f,208673644,None,476837,92,431594479,attribute
+27947967,AGC,ds_window,-88540582504,177707185940,1,50933,f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f,-88540582504,177707185940,11016,4,707660,window
+27947967,AGC,ds_window,-88540582504,177707185940,1,22393,f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f,-88540582504,177707185940,11016,4,454959,window
+,f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f,-88540582504,177707185940,11016,2,543711,window
+Initial serve memory: 1989.41 MB
+Post serve memory: 2422.27 MB
+Post data serve memory: 2142.76 MB
