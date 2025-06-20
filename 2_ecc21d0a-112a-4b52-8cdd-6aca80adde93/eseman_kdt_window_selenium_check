@@ -1,0 +1,41 @@
+iteration,brush percentage,total drawing time (micros),inp (micros),ssim
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/1_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/1_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+1,17,11583,11400,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/2_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/2_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+2,4,17632,44199,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/3_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/3_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+3,9,20443,39900,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/4_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/4_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+4,7,18598,28700,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/5_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/5_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+5,1,18582,39000,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/6_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/6_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+6,4,19760,35400,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/7_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/7_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+7,16,18913,9599,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/8_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/8_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+8,7,18754,23400,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/9_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/9_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+9,2,17262,18000,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/10_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/10_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+10,9,19781,15200,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/11_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/11_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+11,16,19562,39800,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/12_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/12_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+12,8,17348,15399,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/13_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/13_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+13,7,17795,13600,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/14_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/14_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+14,5,15799,13000,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/15_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/15_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+15,28,16944,13099,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/16_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/16_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+16,7,17214,13599,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/17_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/17_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+17,6,16871,37500,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/18_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/18_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+18,6,17591,11599,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/19_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/19_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+19,19,19276,11799,-1.000
+PNG files do not exist for SSIM calculation: /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/20_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_eseman_kdt_2_gantt.png /home/sci/sayefsakin/traveler-benchmarks/ecc21d0a-112a-4b52-8cdd-6aca80adde93/figures/20_ecc21d0a-112a-4b52-8cdd-6aca80adde93_window_db_duck_raw_2_gantt.png
+20,5,16465,6799,-1.000
