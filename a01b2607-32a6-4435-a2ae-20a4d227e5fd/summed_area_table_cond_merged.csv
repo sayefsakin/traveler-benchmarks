@@ -1,6 +1,7 @@
 dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
-a01b2607-32a6-4435-a2ae-20a4d227e5fd,-21293135811,42592341477,11016,3952,940684,window
-a01b2607-32a6-4435-a2ae-20a4d227e5fd,-21293135811,42592341477,11076,3961,377336,window
-Initial serve memory: 624.344 MB
-Post serve memory: 991.625 MB
+a01b2607-32a6-4435-a2ae-20a4d227e5fd,-21293135811,42592341477,11016,18101,1586088,window
+a01b2607-32a6-4435-a2ae-20a4d227e5fd,-21293135811,42592341477,11016,run_on_completed_on_new_thread,2498974,window_cond
+a01b2607-32a6-4435-a2ae-20a4d227e5fd,-21293135811,42592341477,11016,28787,2650404,window
+Initial serve memory: 3778.33 MB
+Post serve memory:  MB
 Post data serve memory:  MB
