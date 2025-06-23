@@ -1,0 +1,16 @@
+Generated Url String: http://spartacus-4:8000/datasets/ae63b22a-66a3-4e92-ae49-b8206d8a0e7b/intervals
+........................................ processed 100000 intervals
+........................................ processed 200000 intervals
+........................................ processed 300000 intervals
+........................................ processed 400000 intervals
+........................................ processed 500000 intervals
+........................................ processed 600000 intervals
+........................................ processed 700000 intervals
+........................................ processed 800000 intervals
+........................................ processed 900000 intervals
+........................................ processed 1000000 intervals
+........................................ processed 1100000 intervals
+..............
+EseMAN KDT build time = 1129559561[microseconds]
+Tree build done
+Total interval count: 1137216, Primitive count: 27
