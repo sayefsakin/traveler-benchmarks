@@ -1,0 +1,5 @@
+DuckDB database created in 477 ms
+dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f,-88540582504,177707185940,11016,5,2254027,window
+f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f,-88540582504,177707185940,11016,3,1320666,window
+f4e2fdfa-893e-4f13-bac8-e9fbbdf40c1f,-88540582504,177707185940,11016,4,1929468,window

@@ -1,0 +1,4 @@
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,hrd,ds query time (micros)
+2759359,ESEMAN,ds_window,-88540582504,177707185940,1,116877
+2759359,ESEMAN,ds_window,-88540582504,177707185940,1,114504
+2759359,ESEMAN,ds_window,-88540582504,177707185940,1,83629
