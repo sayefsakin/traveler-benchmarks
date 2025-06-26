@@ -2,3 +2,6 @@ DuckDB database created in 13 ms
 dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
 ecc21d0a-112a-4b52-8cdd-6aca80adde93,-299856534,709352817,11076,4,44358,window
 ecc21d0a-112a-4b52-8cdd-6aca80adde93,-299856534,709352817,11076,4,12455,window
+Initial serve memory: 5488.19 MB
+Post serve memory: 5855.53 MB
+Post data serve memory:  MB
