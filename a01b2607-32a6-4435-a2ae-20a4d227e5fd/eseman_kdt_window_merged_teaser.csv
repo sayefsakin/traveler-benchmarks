@@ -1,0 +1,6 @@
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,hrd,ds query time (micros),dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+326353,ESEMAN,ds_window,-21293135811,42592341477,1,53153,a01b2607-32a6-4435-a2ae-20a4d227e5fd,-21293135811,42592341477,11016,9,398269,window
+326353,ESEMAN,ds_window,-21293135811,42592341477,1,20563,a01b2607-32a6-4435-a2ae-20a4d227e5fd,-21293135811,42592341477,11076,5,179144,window
+Initial serve memory: 624.352 MB
+Post serve memory: 996.695 MB
+Post data serve memory: 2100.52 MB
