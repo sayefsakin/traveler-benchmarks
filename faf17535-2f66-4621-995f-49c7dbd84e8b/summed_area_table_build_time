@@ -1,0 +1,49 @@
+#######################
+Adding data for: 1fb4011a-f5aa-42f2-bbc0-f296c403d475 (kmeans)
+Parsing OTF2 events (.=2500 events)
+...........
+Finished processing 29396 events
+New primitives: 110, References to existing primitives: 29287
+Metrics included: 0; skipped for no prior ENTER: 0; skipped for mismatch: 0
+Additional attribute lines skipped: 0
+Lines skipped because they are not yet supported: 0
+Combining enter / leave events into intervals (.=2500 intervals)
+..
+
+WARNING: omitting trailing ENTER event (/phylanx$0/access-argument$11$centroids/2$54$23)
+...
+Finished creating 14698 intervals; 0 had no primitive name; 0 had mismatching primitives (ENTER primitive used)
+Building IntervalTree index of intervals (.=2500 intervals)
+.....
+Finished indexing 14698 intervals
+Connecting intervals with the same GUID (.=2500 intervals)
+.....Finished connecting intervals
+Interval links created: 14659, Intervals without prior parent GUIDs: 39
+New primitive links based on GUIDs: 299, Observed existing links: 14360
+Building SparseUtilizationList indexes (.=2500 intervals)
+.....
+Finished indexing 14698 intervals
+
+WARNING: Did not observe intervals for primitives: call_shutdown_functions_action
+
+WARNING: Observed intervals for unknown primitives: all_primitives
+Finalizing indexes
+...............................................................................................................
+
+Finished processing 110 interval histograms
+Finalizing interval histograms
+..............................................................................................................
+time difference:  10332
+Building dependency tree
+
+Construction time:  831920 ms
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 diskCache.Index: info
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 diskCache.Index: primitives
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 diskCache.Index: primitiveLinks
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 pickle: trees
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 diskCache.Index: procMetrics
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 diskCache.Index: intervals
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 pickle: intervalIndex
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 diskCache.Index: guids
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 pickle: sparseUtilizationList
+Saving 1fb4011a-f5aa-42f2-bbc0-f296c403d475 pickle: dependencyTree

@@ -1,0 +1,10 @@
+dataset,algorithm,time(seconds)
+908fc737-2cc7-41d8-8281-7dd9e83155ff,eseman_kdt,49.5
+772c7330-d4eb-485b-866a-3b315063f9af,eseman_kdt,733.7
+faf17535-2f66-4621-995f-49c7dbd84e8b,eseman_kdt,5.9
+ecc21d0a-112a-4b52-8cdd-6aca80adde93,eseman_kdt,0.7
+772c7330-d4eb-485b-866a-3b315063f9af,agglomerative_clustering,0
+908fc737-2cc7-41d8-8281-7dd9e83155ff,agglomerative_clustering,0
+faf17535-2f66-4621-995f-49c7dbd84e8b,agglomerative_clustering,1.4
+ecc21d0a-112a-4b52-8cdd-6aca80adde93,agglomerative_clustering,0.003
+

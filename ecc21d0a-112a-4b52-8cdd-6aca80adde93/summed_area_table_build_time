@@ -1,0 +1,48 @@
+Adding data for: 7345a26b-b608-4a22-867a-a16ab5521e44 (dgemm_test)
+Parsing OTF2 events (.=2500 events)
+
+Finished processing 2450 events
+New primitives: 53, References to existing primitives: 2398
+Metrics included: 0; skipped for no prior ENTER: 0; skipped for mismatch: 0
+Additional attribute lines skipped: 0
+Lines skipped because they are not yet supported: 0
+Combining enter / leave events into intervals (.=2500 intervals)
+
+
+WARNING: omitting trailing ENTER event (run_as_hpx_thread (non-void))
+
+Finished creating 1225 intervals; 0 had no primitive name; 0 had mismatching primitives (ENTER primitive used)
+Building IntervalTree index of intervals (.=2500 intervals)
+
+Finished indexing 1225 intervals
+Connecting intervals with the same GUID (.=2500 intervals)
+Finished connecting intervals
+Interval links created: 1184, Intervals without prior parent GUIDs: 41
+New primitive links based on GUIDs: 69, Observed existing links: 1115
+Building SparseUtilizationList indexes (.=2500 intervals)
+
+Finished indexing 1225 intervals
+
+WARNING: Did not observe intervals for primitives: call_shutdown_functions_action
+
+WARNING: Observed intervals for unknown primitives: all_primitives
+Finalizing indexes
+......................................................
+
+Finished processing 53 interval histograms
+Finalizing interval histograms
+.....................................................
+time difference:  952
+Building dependency tree
+
+Construction time:  72697 ms
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 diskCache.Index: info
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 diskCache.Index: primitives
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 diskCache.Index: primitiveLinks
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 pickle: trees
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 diskCache.Index: procMetrics
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 diskCache.Index: intervals
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 pickle: intervalIndex
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 diskCache.Index: guids
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 pickle: sparseUtilizationList
+Saving 7345a26b-b608-4a22-867a-a16ab5521e44 pickle: dependencyTree

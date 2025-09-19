@@ -1,0 +1,24 @@
+Image 1: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_raw_1_gantt.png
+Image 2: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_raw_1_gantt.png
+SSIM Score: 1.0000
+----------------------------------
+Image 1: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_summed_area_table_1_gantt.png
+Image 2: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_raw_1_gantt.png
+SSIM Score: 0.9996
+----------------------------------
+Image 1: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_agglomerative_clustering_1_gantt.png
+Image 2: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_raw_1_gantt.png
+SSIM Score: 1.0000
+----------------------------------
+Image 1: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_eseman_kdt_1_gantt.png
+Image 2: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_raw_1_gantt.png
+SSIM Score: 1.0000
+----------------------------------
+Image 1: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_min_max_1_gantt.png
+Image 2: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_raw_1_gantt.png
+SSIM Score: 0.8908
+----------------------------------
+Image 1: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_sketch_1_gantt.png
+Image 2: /mnt/d/LDAV25Data/traveler-benchmarks/faf17535-2f66-4621-995f-49c7dbd84e8b/faf17535-2f66-4621-995f-49c7dbd84e8b_window_db_duck_raw_1_gantt.png
+SSIM Score: 0.9915
+----------------------------------

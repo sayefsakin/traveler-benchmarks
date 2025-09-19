@@ -1,0 +1,11 @@
+EseMAN KDT build time = 11904[microseconds]
+Tree build done
+Total interval count: 14698, Primitive count: 108
+Server is now listening
+tree build time (micros),ds type,ds query type,ds query begin,ds query end,ds query time (micros),dataset id,begin,end,bins,API Fetch Time(micros),Post Processing Time(micros),query
+11904,ESEMAN,ds_window,-1305029698,2753780939,11276,faf17535-2f66-4621-995f-49c7dbd84e8b,-1305029698,2753780939,4176,4,93968,window
+11904,ESEMAN,ds_window,-1305029698,2753780939,976,faf17535-2f66-4621-995f-49c7dbd84e8b,-1305029698,2753780939,4236,6,75507,window
+12764,ESEMAN,ds_window,-1305029698,2753780939,6630,faf17535-2f66-4621-995f-49c7dbd84e8b,-1305029698,2753780939,4176,4,97252,window
+12764,ESEMAN,ds_window,-1305029698,2753780939,904,faf17535-2f66-4621-995f-49c7dbd84e8b,-1305029698,2753780939,4236,4,81127,window
+11941,ESEMAN,ds_window,-1305029698,2753780939,7424,faf17535-2f66-4621-995f-49c7dbd84e8b,-1305029698,2753780939,4176,8,141979,window
+11941,ESEMAN,ds_window,-1305029698,2753780939,787,faf17535-2f66-4621-995f-49c7dbd84e8b,-1305029698,2753780939,4236,5,118211,window
