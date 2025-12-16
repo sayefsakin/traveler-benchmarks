@@ -561,6 +561,198 @@ def totalDrawingFetchingPercentage(query_name):
     plt.close()
 
 
+def stackedChartForDrawingFetch(query_name):
+    fig, ax_main = plt.subplots(figsize=(14, 6))
+    
+    # Initialize a dictionary to store data for each algorithm
+    drawing_data = {a: [] for a in alg}
+    fetch_data = {a: [] for a in alg}
+    dataset_names = []
+
+    # Collect data for each dataset and algorithm
+    for i, dataset in enumerate(datasets):
+        dataset_names.append(dataset['name'])
+        for alg_name in alg:
+            for metric_type in ['data_fetch', 'total_drawing']:
+                if (alg_name == 'eseman_kdt' or alg_name == 'eseman_kdt_twod' or alg_name == 'agglomerative_clustering') and metric_type == 'data_fetch':
+                    metric_column = 'ds query time (micros)'
+                elif metric_type == 'data_fetch':
+                    metric_column = 'Post Processing Time(micros)'
+                elif metric_type == 'inp':
+                    metric_column = 'inp (micros)'
+                elif metric_type == 'total_drawing':
+                    metric_column = 'total drawing time (micros)'
+                elif metric_type == 'ssim':
+                    metric_column = 'ssim'
+
+                if not checkIfResultsGenerated(dataset, query_name, alg_name):
+                    if metric_type == 'total_drawing':
+                        drawing_data[alg_name].append(np.nan)
+                    else:
+                        fetch_data[alg_name].append(np.nan)
+                    continue
+                try:
+                    file_path = ""
+                    df = pd.DataFrame()
+                    if metric_type == 'data_fetch':
+                        file_path = base_directory + "/" + dataset['ID'] + "/" + alg_name + "_" + query_name + "_merged.csv"
+                        if alg_name.startswith('db'):
+                            df = pd.read_csv(file_path, skiprows=1, skipfooter=3, engine='python')
+                        else:
+                            df = pd.read_csv(file_path, skipfooter=3, engine='python')
+                    elif metric_type == 'inp' or metric_type == 'total_drawing' or metric_type == 'ssim':
+                        file_path = base_directory + "/" + dataset['ID'] + "/" + alg_name + "_" + query_name + "_selenium_check"
+                        df = pd.read_csv(file_path)
+
+                    df = df.tail(10)  # Take last 10 elements
+                    
+                    if metric_type == 'total_drawing':
+                        if metric_column in df.columns:
+                            drawing_data[alg_name].append(df[metric_column].mean())
+                        else:
+                            drawing_data[alg_name].append(np.nan)
+                    else: 
+                        if metric_column in df.columns:
+                            fetch_data[alg_name].append(df[metric_column].mean())
+                        else:
+                            fetch_data[alg_name].append(np.nan)
+                except:
+                    if metric_type == 'total_drawing':
+                        drawing_data[alg_name].append(np.nan)
+                    else:
+                        fetch_data[alg_name].append(np.nan)
+    
+    # Plot a line for each algorithm
+    line_styles = [':', '-', '-', '-.', ':', '--']  # Define different line styles
+    markers = ['o', 's', '*', 'v', 'D', '^']  # Define different markers
+    bar_width = 0.12
+    group_gap = 1#1.25
+    x = np.arange(len(dataset_names))
+    # Use a colormap for distinct colors
+    # cmap = plt.get_cmap('tab20c')
+
+    # Define hatch patterns for each algorithm
+    hatch_patterns = ['/', '\\', '|', '-', 'o', 'x']
+
+    # fig = plt.figure(figsize=(12, 8))
+    # gs = GridSpec(2, 1, height_ratios=[3, 1], hspace=0.1)
+
+    # Create stacked bar chart with drawing and fetch data
+    for i, alg_name in enumerate(alg):
+        hatch = hatch_patterns[i % len(hatch_patterns)]
+        
+        # Calculate totals and percentages
+        fetch_pct = []
+        drawing_pct = []
+        for j in range(len(dataset_names)):
+            total = fetch_data[alg_name][j] + drawing_data[alg_name][j]
+            if total > 0:
+                fetch_pct.append(100 * fetch_data[alg_name][j] / total)
+                drawing_pct.append(100 * drawing_data[alg_name][j] / total)
+            else:
+                fetch_pct.append(0)
+                drawing_pct.append(0)
+        
+        # Stack fetch percentage on bottom
+        ax_main.bar(
+            x * group_gap + i * bar_width,
+            fetch_pct,
+            width=bar_width,
+            label=alg_code[i],
+            color=color[i % len(color)],
+            hatch=hatch,
+            edgecolor='black',
+            alpha=0.8,
+            linewidth=1.5
+        )
+        # Stack drawing percentage on top
+        ax_main.bar(
+            x * group_gap + i * bar_width,
+            drawing_pct,
+            bottom=fetch_pct,
+            width=bar_width,
+            color=color[i % len(color)],
+            hatch=hatch,
+            edgecolor='black',
+            alpha=0.3,
+            linewidth=1.5
+        )
+
+    ax_main.set_xticks(x * group_gap + bar_width * (len(alg) - 1) / 2)
+    ax_main.set_xticklabels(dataset_names, fontsize=20)
+
+    ax_main.set_xlabel("Datasets")
+    ax_main.set_ylabel("Percent spent on \n data fetch vs drawing (%)")
+    
+    # Increase the number of yticks for better granularity
+    # ax_main.yaxis.set_major_locator(LogLocator(base=10.0, numticks=20))
+
+    ax_main.set_axisbelow(True)
+    ax_main.grid(True)#, which="both")
+    # fig.subplots_adjust(top=0.8)
+    ax_main.legend(
+        fontsize=18, ncol=3, loc='upper center',
+        bbox_to_anchor=(0.5, 1.40), frameon=False
+    )
+    # ax_main.set_yscale('log')
+    # ax_main.yaxis.set_major_formatter(lambda x, p: f'{x/1000000:.2f}')
+    # plt.setp(ax_main.get_xticklabels(), visible=True)
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
+    ax_main.xaxis.label.set_size(20)
+    ax_main.yaxis.label.set_size(20)
+    # ax_main.minorticks_on()
+    # ax_main.set_title(ax_main.get_title(), fontsize=16)
+
+    # ax_main.set_yticks([x * 1000000 for x in [0.0002, 0.001, 0.005, 0.02, 0.1, 0.5, 2.0, 8.0, 32.0, 70.0]])
+    # ax_main.set_yticklabels(['0.2m','1m', '5m', 0.02, 0.1, 0.5,2.0,8.0, 32.0, 70.0])
+    # ax_main.set_yticks([x * 1000000 for x in [0.02, 0.1, 0.5, 2.0, 8.0, 32.0, 70.0]])
+    # ax_main.set_yticklabels([0.02, 0.1, 0.5,2.0,8.0, 32.0, 70.0])
+
+    # # SSIM bar chart (bottom)
+    # ax_ssim = fig.add_subplot(gs[1], sharex=ax_main)
+    # ssim_bar_width = bar_width
+    # for i, alg_name in enumerate(alg):
+    #     hatch = hatch_patterns[i % len(hatch_patterns)]
+    #     ax_ssim.bar(
+    #         x * group_gap + i * ssim_bar_width,
+    #         np.array(pi_values[alg_name]),
+    #         width=ssim_bar_width,
+    #         label=alg_code[i],
+    #         color=color[i % len(color)],
+    #         hatch=hatch,
+    #         alpha=0.7,
+    #         edgecolor='black',
+    #         linewidth=1.0
+    #     )
+    # ax_ssim.text(
+    #     0.01, 0.82, "No bar for percent decrease",
+    #     transform=ax_ssim.transAxes,
+    #     fontsize=16,
+    #     color='red',
+    #     ha='left',
+    #     va='bottom',
+    #     bbox=dict(facecolor='white', alpha=0.7, edgecolor='none')
+    # )
+    # ax_ssim.set_ylabel("% Increase\nFrom Fetch")
+    # ax_ssim.yaxis.label.set_size(20)
+    # ax_ssim.set_yscale('log')
+    # # ax_ssim.set_ylim(1, 100000)
+    # ax_ssim.set_yticks([x for x in [1, 10, 100, 1000, 10000, 100000]])
+    # ax_ssim.set_yticklabels([1, 10, r'$10^2$', r'$10^3$', r'$10^4$', r'$10^5$'])
+    # ax_ssim.set_xticks(x * group_gap + bar_width * (len(alg) - 1) / 2)
+    # ax_ssim.set_xticklabels(dataset_names, fontsize=16)
+    # ax_ssim.set_xlabel("Datasets")
+    # ax_ssim.set_axisbelow(True)
+    # ax_ssim.grid(True)
+    # # ax_ssim.legend(fontsize=12, ncol=3, loc='upper center', bbox_to_anchor=(0.5, 1.25))
+    # ax_ssim.xaxis.label.set_size(20)
+    # plt.setp(ax_ssim.get_yticklabels(), fontsize=20)
+
+    plt.tight_layout()
+    plt.savefig(f"{query_name}_stacked_chart.png")
+    plt.close()
+
 def totalDrawingRelativePercentage(query_name):
     fig, ax = plt.subplots(figsize=(14, 6))
     
@@ -1170,7 +1362,8 @@ if __name__ == '__main__':
 
     # drawingFetchingComp(query[0])
     # totalDrawingFetchingPercentage(query[0])
-    totalDrawingRelativePercentage(query[0])
+    # totalDrawingRelativePercentage(query[0])
+    stackedChartForDrawingFetch(query[0])
 
     # # # drawPlot(query[1], 'inp')
     # drawPlot(query[1], 'total_drawing', False)
